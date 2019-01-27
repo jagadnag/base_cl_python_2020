@@ -4,7 +4,7 @@ from netmiko import Netmiko
 # SSH Connection Details
 ios1 = {
     'device_type': 'cisco_ios',
-    'ip': '172.21.56.120',
+    'ip': '198.18.1.55',
     'username': 'cisco',
     'password': 'cisco',
 }

@@ -6,10 +6,6 @@ from getpass import getpass
 username = raw_input('Enter your SSH username: ')
 password = getpass()
 
-# Sending multiple lines of config stored in a file 
-#with open('more_config') as f:
-#    commands_list = f.read().splitlines()
-
 # Sending device ip's stored in a file 
 with open('devices_list') as f:
     devices_list = f.read().splitlines()

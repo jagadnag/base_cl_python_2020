@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 from netmiko import Netmiko
 
-# Sending multiple lines of config stored in a file 
-#with open('basic_config') as f:
-#    commands_to_send = f.read().splitlines()
-
 # SSH Connection details 
 ios1 = {
     'device_type': 'cisco_ios',

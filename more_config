@@ -1,0 +1,13 @@
+no ip domain lookup
+logging host 1.1.1.6
+snmp-server community cisco_public RO
+snmp-server community cisco_private RW
+snmp-server location dCloud
+ip access-list extended TEST_ACL
+permit ip 1.1.1.0 0.0.0.255 any
+permit ip 2.2.2.0 0.0.0.255 any
+permit ip 3.3.3.0 0.0.0.255 any
+interface loopback 100
+description "Created by Python"
+router ospf 10
+network 0.0.0.0 0.0.0.0 area 0

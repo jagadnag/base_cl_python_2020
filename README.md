@@ -1,6 +1,6 @@
 # cluer_python_2019
 
-## Python scripts for network automation
+## Python scripts for network automation lab
 
 ### Python virtual environment settings on CentOS
 

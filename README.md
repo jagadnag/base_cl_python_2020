@@ -10,6 +10,8 @@
   * yum install python python-pip
 * Install git
   * yum install git
+* Install virtualenv
+  * pip install -U virtualenv  
 * Clone the git repo
   * git clone https://github.com/jagadnag/cluer_python_2019.git
 * Navigate to the directory
@@ -22,5 +24,7 @@
   * pip install netmiko
 * Verify the python pip packages
   * pip list
+* Run the scripts
+  * python <script_name>.py 
 * Deactivate the virtual environment 
   * deactivate

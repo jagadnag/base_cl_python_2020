@@ -22,6 +22,8 @@
   * source venv/bin/activate
 * Install the python package
   * pip install netmiko
+  * pip install napalm
+  * pip install jupyter
 * Verify the python pip packages
   * pip list
 * Run the scripts

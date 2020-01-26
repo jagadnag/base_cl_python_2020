@@ -1,4 +1,4 @@
-# cl_python_2019
+# cl_python_2020
 
 ## Python scripts for network automation lab
 
@@ -13,9 +13,9 @@
 * Install virtualenv
   * pip install -U virtualenv  
 * Clone the git repo
-  * git clone https://github.com/jagadnag/cl_python_2019.git
+  * git clone https://github.com/jagadnag/cl_python_2020.git
 * Navigate to the directory
-  * cd cl_python_2019
+  * cd cl_python_2020
 * Create a python virtual environment
   * virtualenv venv --python=python2.7
 * Activate the venv
